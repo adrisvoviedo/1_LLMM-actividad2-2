@@ -1,0 +1,28 @@
+body{
+    background-color: beige;
+}
+h1{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    color: rgb(149, 73, 18);
+    font-size: 50px;
+}
+img{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+}
+p{
+    margin: 0 auto;
+    width: 60%; 
+    padding: 5px; 
+    text-align: justify;
+    color: dimgray;
+}
+#atras{
+    border: 1px solid black;
+    background-color: aquamarine;
+    border-radius: 3px;
+}

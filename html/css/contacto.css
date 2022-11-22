@@ -1,0 +1,28 @@
+body{
+    background-color: #416a8ada;
+    color: #3D2B11;
+}
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 550px;
+    /* Esquema del formulario */
+    padding: 20px;
+    border: 1px solid #CCC;
+    border-radius: 20px;
+}
+
+
+ul,
+li {
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+label,input{
+    padding-left: 10px;
+    padding-right: 10px;
+}

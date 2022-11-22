@@ -3,3 +3,59 @@
 <!-- p -->
 <!-- Enlaces a index, ingredientes, pasos y contacto -->
 <!-- formulario: nombre, email, seleccionar entre consulta/sugerencia/corrección, comentario, aceptar política de privacidad, enviar-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Receta de Tiramisu</title>
+
+</head>
+
+<body>
+    <form action="./index.html" method="get">
+        <ul>
+
+            <li>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="user_name">
+            </li>
+            <li>
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_mail">
+            </li>
+            <li>
+                <label for="seleccion">Tipo de contacto:</label>
+                <select id="seleccion" name="tipos">
+                    <option value="consulta">Consulta</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="corrección">Corrección</option>
+                </select>
+            </li>
+            <li>
+                <label for="msg">Mensaje:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li>
+                <label for="privacidad">Marca para aceptar la politica de privacidad </label>
+                <input type="checkbox" name="privacidad">
+            </li>
+            <li>
+                <input type="reset" value="Reiniciar el formulario">
+                <input type="submit" value="Enviar mensaje">
+            </li>
+        </ul>
+    </form>
+</body>
+<footer>
+    <a href="./index.html">Página principal</a>
+    <a href="./ingredientes.html">Ingredientes</a>
+    <a href="./pasos.html">Pasos</a>
+    <a href="./contacto.html">Contacto</a>
+</footer>
+
+</html>

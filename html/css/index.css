@@ -1,0 +1,36 @@
+body{
+    background-color: bisque;
+    color:rgb(98, 97, 97);
+}
+h1,h2{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+}
+h1{
+    color: rgb(149, 73, 18);
+    font-size: 50px;
+}
+h2{
+    color: rgb(172, 79, 12);
+}
+img{
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+#descripcion{
+    text-align: justify;
+    padding: 20px;
+}
+.despedida{
+    display: block;    
+    padding-top: 10px;
+}
+p{
+    margin: 0 auto;
+    width: 60%; 
+    padding: 5px; 
+    text-align: center; 
+}

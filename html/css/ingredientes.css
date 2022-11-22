@@ -1,0 +1,31 @@
+body{
+    background-image:url(../../img/recetaTiramisu.jpg) ;
+    color: rgb(57, 55, 55);
+    background-size:cover;
+   
+    
+}
+h1,p,ul{
+    
+    background-color: #d9a543a4;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 15px;
+}
+h1{
+    width: min-content;
+    color:#592B02;
+    font-size: 70px;
+    
+}
+p{
+    width: 60%;
+    font-size: 20px;
+   
+
+}
+ul{
+    list-style: none;
+    width: fit-content;
+    font-size: 20px;
+}
